@@ -1,0 +1,12 @@
+@use 'variables' as var;
+
+.btn {
+    font-size: 17px;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background-color: var.$color-green;
+    color: var.$color-white;
+    cursor: pointer;
+}

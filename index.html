@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Longest common subsequence">
+    <meta name="keywords" content="HTML, CSS, JavaScript, subsequence, subsequences, common, lcs">
+    <meta name="author" content="Gerardo Ortiz">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/sass/main.scss">
+    <script type="module" defer src="src/js/controller.js"></script>
+    <title>LCS</title>
+</head>
+
+<body>
+    
+    <header class="header">
+        <h1 class="header__title">Longest Common Subsequence</h1>
+        <p class="header__text">This app will find the longest subsequence of two sequences.</p>
+    </header>
+
+    <form class="form">
+        <label for="input-1"></label>
+        <input class="form__input" id="input-1" type="text" placeholder="Sequence 1">
+        <label for="input-2"></label>
+        <input class="form__input" id="input-2" type="text" placeholder="Sequence 2">
+        <button class="btn form__btn">Find</button>
+    </form>
+
+    <div class="results">
+    </div>
+
+</body>
+
+</html>

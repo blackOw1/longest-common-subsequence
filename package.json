@@ -1,0 +1,22 @@
+{
+  "name": "lcs",
+  "version": "1.0.0",
+  "description": "A small app that finds the commmon subsequence of two sequences.",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [
+    "lcs",
+    "subsequence",
+    "subsequences"
+  ],
+  "author": "Gerardo Ortiz",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1",
+    "autoprefixer": "^10.4.2",
+    "parcel": "^2.2.1"
+  }
+}

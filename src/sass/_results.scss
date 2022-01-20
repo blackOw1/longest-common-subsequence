@@ -1,0 +1,32 @@
+@use 'variables' as var;
+
+.results {
+    width: fit-content;
+    margin: 16px auto 0;
+    visibility: hidden;
+    opacity: 0;
+
+    transition: opacity 250ms ease;
+
+    
+    &__copy,
+    &__result {
+        text-align: center;
+        color: rgba(var.$color-black, 88%);
+    }
+    
+    &__copy {
+        font-size: 17px;
+        margin-bottom: 8px;
+    }
+    
+    &__result {
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
+
+.show {
+    visibility: visible;
+    opacity: 1;
+}
